@@ -6,11 +6,9 @@ import UserMessage from "./ui/userMessage";
 import InputUI from "./ui/inputUI";
 import { chatCompletion } from "@/actions";
 import TypingIndicator from "./ui/typing";
+import { Message } from "@/types";
 
-export type Message = {
-  role: "user" | "assistant" | "system";
-  content: string;
-};
+
 export default function Chatbot() {
   const [showChatbot, setShowChatbot] = useState<boolean>(false)
   const [inputValue, setInputValue] = useState<string>("")
