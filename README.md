@@ -17,11 +17,14 @@
 
 ## 📸 Screenshots & GIFs
 
-| Type                | Description                                      |
-|---------------------|--------------------------------------------------|
-| 💬 Chat Interface    | ![Chat UI](./docs/screenshot-chat.png)|
-| 🔍 RAG in Action     | ![RAG](./docs/RAG.gif) |
-| 🤖 LLM fallback      | ![LLM] (./docs/llm.gif)|
+## 💬 Chat Interface
+<img src="./docs/screenshot-chat.png" width="400" alt="Chat UI" />
+
+## 🔍 RAG in Action
+<img src="./docs/RAG.gif" width="400" alt="RAG demo" />
+
+## 🤖 LLM Fallback
+<img src="./docs/llm.gif" width="400" alt="LLM fallback" />
 
 
 ---
