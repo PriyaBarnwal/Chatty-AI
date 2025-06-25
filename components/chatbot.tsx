@@ -18,7 +18,7 @@ export default function Chatbot() {
     { role: "assistant", content: "Hello, I am Chatty! How can I assist you today?" }
   ])
   const [loading, setLoading] = useState<boolean>(false)
-  
+
   useEffect(() => {
     if(chatbotRef.current) {
       chatbotRef.current.scrollTo({
@@ -51,9 +51,9 @@ export default function Chatbot() {
 
   return (
     <div>
-        <RiChatSmile2Fill size={42} className="fixed right-12 bottom-[calc(1rem)] hover:cursor-pointer" onClick={() => setShowChatbot(!showChatbot)}/>
+        <RiChatSmile2Fill size={42} className="fixed right-4 md:right-12 bottom-[calc(1rem)] hover:cursor-pointer" onClick={() => setShowChatbot(!showChatbot)}/>
         {showChatbot && (
-        <div className="fixed right-12 bottom-[calc(4.5rem)] p-3 shadow-sm shadow-white border rounded-md w-105 h-155   bg-gray-900">
+        <div className="w-[320px] h-[600px] md:w-[400px] md:h-[650px] fixed right-4 md:right-12 bottom-[calc(4.5rem)] p-3 shadow-sm shadow-white border rounded-md bg-gray-900">
             <div className="flex flex-col items-center border-b border-white pb-1">
                 <h2 className="text-xl font-bold">Chatty</h2>
                 <p className="text-xs mb-1">( powered by OpenAI )</p>
