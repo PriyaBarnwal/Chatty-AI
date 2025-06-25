@@ -15,13 +15,13 @@
 
 ---
 
-## 📸 Screenshots & GIFs (Add These)
+## 📸 Screenshots & GIFs
 
 | Type                | Description                                      |
 |---------------------|--------------------------------------------------|
 | 💬 Chat Interface    | ![Chat UI](./docs/screenshot-chat.png)|
-| 🔍 RAG in Action     | ![RAG](./docs/knowledge-base-answer.mov) |
-| 🤖 LLM fallback      | ![LLM generation using openAI] (./docs/llm-generation.mov)|
+| 🔍 RAG in Action     | ![RAG](./docs/RAG.gif) |
+| 🤖 LLM fallback      | ![LLM] (./docs/llm.gif)|
 
 
 ---
