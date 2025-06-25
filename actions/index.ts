@@ -7,9 +7,9 @@ import fs from "fs";
 import OpenAI from 'openai/index.js';
 
 const endpoint = process.env.ENDPOINT_URL;
-const apiKey = process.env.AZURE_OPENAI_API_KEY;
+const apiKey = process.env.OPENAI_API_KEY;
 const apiVersion = process.env.API_VERSION;
-const deployment = process.env.AZURE_OPENAI_DEPLOYMENT_NAME;
+const deployment = process.env.OPENAI_DEPLOYMENT_NAME;
 const client = new AzureOpenAI({ endpoint, apiKey, apiVersion, deployment});
 
 function loadFaqData(): Faq[] {
